@@ -44,4 +44,8 @@ conda activate yolov8-py311
 
  7. Additionally I've supplied a video taken from the vector's front camera, to test in video format how well the model creates bounding boxes and generalizes. Feel free to try more!!
 
- Resulting video should be: Show gif of video. 
+ 
+
+https://github.com/user-attachments/assets/1c7f7b2d-5f64-4891-bc0e-ecfac782b535
+
+
