@@ -1,10 +1,12 @@
-# Vector Detection 
+# Vector Detection Model
 This repository will provide you with an intuitive guide to enable your Vector to see and identify other Anki Vectors alike with tight bounding boxes. 
 
 
 
 # What is YOLO and why? 
-Talk about model, parameters I used, etc ...
+**YOLO (You Only Look Once)** is a fast, single-stage object detection algorithm that processes an entire image in one forward pass of the neural network. This makes it extremely efficient and well-suited for real-time applications, such as detecting an Anki Vector robot in various environments.
+
+For this project, I used a lightweight YOLO model along with transfer learning. Instead of training from scratch, I started with a pre-trained YOLO model that had already learned to detect a wide range of objects. I then fine-tuned this model on my custom dataset of Anki Vector images. This approach significantly reduces training time while still achieving high accuracy tailored to the specific task.
 
 
 
@@ -36,9 +38,14 @@ conda activate yolov8-py311
 
  With the given dataset this is the models output.
 
- ![alt text](runs/detect/yolov8_fine_tuning/results.png)
+![image](https://github.com/user-attachments/assets/b6820365-2fd6-493c-9014-8e00b386eb25)
+
 
 
  7. Additionally I've supplied a video taken from the vector's front camera, to test in video format how well the model creates bounding boxes and generalizes. Feel free to try more!!
 
- Resulting video should be: Show gif of video. 
+ 
+
+https://github.com/user-attachments/assets/1c7f7b2d-5f64-4891-bc0e-ecfac782b535
+
+
