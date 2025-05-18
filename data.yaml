@@ -1,5 +1,5 @@
-train: C:/Users/mihir/VectorDetector/BiggerDataset-Attempt/dataset/train/images
-val: C:/Users/mihir/VectorDetector/BiggerDataset-Attempt/dataset/valid/images
+train: PATH_TO_DATASET/dataset/train/images
+val: PATH_TO_DATASET/dataset/valid/images
 
 nc: 1
 names: ['vector']
