@@ -1,4 +1,4 @@
-# Vector Detection 
+# Vector Detection Model
 This repository will provide you with an intuitive guide to enable your Vector to see and identify other Anki Vectors alike with tight bounding boxes. 
 
 
