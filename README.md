@@ -15,6 +15,7 @@ For this project, I used a lightweight YOLO model along with transfer learning. 
 1. Clone Repo
 ```
 git clone https://github.com/mparekh99/VectorDetection.git 
+cd VectorDetection
 ```
 
 
